@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="main.js" defer></script>
+    <title>My Site</title>
+</head>
+<body>
+    <header >
+        <div class="header-container">
+            <div class="logo"> Hamster-bot </div>
+            <a href="#about"><div class="h_item"> Про бота </div></a>
+            <a href="#commands"><div class="h_item"> Команди </div></a>
+            <a href="#go_to_bot"><div class="h_item"> До бота </div></a>
+        </div>
+    </header>
+
+
+    <div class="content">
+        <div id="about">
+            <div class="about-item odd">
+                <div></div>
+                <div class="a_photo">
+                    <img src="img/storage.png">
+                </div>
+                <div class="a_taxt">
+                    Цей бот є помічником у систематизації контенту яким ми користуємось повсякденно.
+                    Цей бот вміє сортувати файли за класами (музика, картинки, відео, текст, інші файли), в обраних класах сортувати
+                    файли за розділами ("для роботи", "для розваги", "треба переслати", "щоб було").
+        - показувати погоду за обраним містом;
+        - відстежує повітряну тривогу за обраним містом;
+        - має власну телефонну книгу.
+                </div>
+                <div></div>
+            </div>
+
+            <div class="about-item even">
+                <div></div>
+                <div class="a_taxt">
+                    Може показати показувати погоду за обраним містом.
+                </div>
+                <div class="a_photo">
+                    <img src="img/weather.jpg">
+                </div>
+                <div></div>
+            </div>
+
+            <div class="about-item odd">
+                <div></div>
+                <div class="a_photo">
+                    <img src="img/alarm.png">
+                </div>
+                <div class="a_taxt">
+                    Відстежує повітряну тривогу за обраним містом.
+                </div>
+                <div></div>
+            </div>
+
+            <div class="about-item even">
+                <div></div>
+                <div class="a_taxt">
+                    Має власну телефонну книгу.
+                </div>
+                <div class="a_photo">
+                    <img src="img/phone.png">
+                </div>
+                <div></div>
+            </div>
+        </div>
+        <hr>
+
+
+        <div class="command-container" >
+            <div class="command-slider" id="commands">
+                <div class="command">
+                    <h2 id="command-title">title</h2>
+                    <img id="command-image" src="">
+                    <p id="command-description">description</p>
+                </div>
+                <div class="command-paginator">
+                    <button id="left">⬅️</button>
+                    <button id="right">➡️</button>
+                </div>
+            </div>
+            <div class="commands-text">
+                <h3><p>Список команд:</p></h3>
+                <p><span class="name-command">help</span>  - опис бота, список та роз'ястнення команд</p>
+                <p><span class="name-command">box</span> - відкриває доступ до сховища файлів</p>
+                <p><span class="name-command">save</span> - зберегти файл</p>
+                <p><span class="name-command">weather</span> - показати погоду</p>
+                <p><span class="name-command">alarm_on</span> - відстежувати повітряну тривогу</p>
+                <p><span class="name-command">alarm_off</span> - не відстежувати повітряну тривогу</p>
+                <p><span class="name-command">book</span> - доступ до телефонної книги</p>
+                <p><span class="name-command">add</span> - додати запис</p>
+                <p><span class="name-command">delete</span> - "name" - видалити запис за іменем</p>
+                <p><span class="name-command">stats</span> - кількість записів</p>
+                <p><span class="name-command">list</span> - список всіх імен в книзі</p>
+                <p><span class="name-command">show</span> - "name" - детальна інформація за іменем</p>
+        </div>
+        </div>
+        <hr>
+        <div id="go_to_bot" class="go-container">
+            <div></div>
+            <div class="a_photo">
+                <img src="img/start.png">
+            </div>
+            <div class="go_text">
+                <a target="_blank" href="http://t.me/homework27_bot">Приємного користування!</a>
+            </div>
+            <div></div>
+        </div>
+
+    </div>
+    <footer>
+        <hr>
+        <div class="footer-container">
+            <div></div>
+            <div class="footer-item">2023 @Adamov</div>
+            <div class="footer-item"><a target="_blank" href="http://t.me/homework27_bot">Hamster-bot</a></div>
+            <div class="footer-item"><a target="_blank" href="https://github.com/soosanin2">GitHub</a></div>
+            <div class="footer-item"><a target="_blank" href="https://commission.europa.eu/cookies-policy_en">Cookie Policy</a></div>
+            <div></div>
+        </div>
+    </footer>
