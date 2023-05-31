@@ -2,17 +2,17 @@ const commands = [
     {
         title: "Загальна інформація",
         description: "Трішки про бота",
-        image: "img/photo_2023-03-18_19-28-11.jpg"
+        image: "img/bot.jpg"
     },
     {
-        title: "Команди",
-        description: "Список команд №1",
-        image: "img/photo_2023-03-18_19-27-03.jpg",
+        title: "МЕНЮ",
+        description: "Головне меню",
+        image: "img/menu.jpg",
     },
     {
-        title: "Команди",
-        description: "Список команд №2",
-        image: "img/photo_2023-03-18_19-27-03 (2).jpg",
+        title: "МЕНЮ",
+        description: "Меню телефонної книги",
+        image: "img/phone_book.jpg",
     }
 ]
 
